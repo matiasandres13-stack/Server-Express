@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemod index.js"
+    "dev": "nodemon index.js"
   },
   "author": "Matias Andres Fernandez",
   "license": "MIT",

@@ -6,10 +6,10 @@ const productos = [
   { id: 2, nombre: "producto 2", precio: 200 },
 ];
 
-/* app.use((req, res, next) => {
-  console.log(`${req - method} ${req - url}`);
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.url}`);
   next();
-}); */
+});
 
 app.get("/", (req, res) => {
   res.send("Hola, mundo desde Express!");
